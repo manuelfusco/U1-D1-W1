@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Josefin+Slab:wght@700&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@700&family=Poppins:wght@400;700&family=Prata&family=Roboto+Slab:wght@500&family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: "Roboto Slab", serif;
+  background: rgb(40, 89, 2);
+  background: linear-gradient(
+    90deg,
+    rgba(40, 89, 2, 0.7567401960784313) 2%,
+    rgba(131, 204, 69, 0.7175245098039216) 49%,
+    rgba(46, 87, 187, 1) 100%
+  );
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #0a109a6b;
+}
+#social > a {
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+  margin: 2px;
+}
+#social {
+  display: flex;
+  flex-direction: column;
+}
+#image-container {
+  display: flex;
+  justify-content: center;
+}
+div > img {
+  width: 150px;
+  height: 170px;
+  margin: 3px;
+}
+span {
+  color: blue;
+}
+a {
+  text-decoration: none;
+  color: aqua;
+}
+#skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul {
+  list-style: none;
+  color: aquamarine;
+}
+ol {
+  color: red;
+}
+caption > h4 {
+  color: blue;
+  font-size: large;
+}
+th {
+  color: darkblue;
+}
+#footer {
+  background-color: darkgreen;
+}
